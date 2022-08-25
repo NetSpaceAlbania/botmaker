@@ -43,14 +43,19 @@ Done:
 
 Setup the bot:
     .env file:
+    
         ~ DISCORD_TOKEN=
             Description: Discord bot token.
+            
     	~ CLIENT_ID=
             Description: Discord bot id.
+            
         ~ GUILD_ID=
             Description: The guild id for slash command usage.
+            
         ~ MONGOOSE_URI=
             Description: Mongoose uri.
+            
     Dependencies
         "@discordjs/rest": "^1.0.1"
         "discord.js": "^14.2.0"
