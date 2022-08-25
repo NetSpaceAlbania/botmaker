@@ -8,7 +8,7 @@ This is the repository for the discord bots created by hsa community members.
 - Skill level
 Entry level project, contributions from intermediate and advanced members would be appreciated!
 
-
+`
 To be done:
     - Audio log
         Description: To show interaction create informantion and more.
@@ -42,20 +42,15 @@ Done:
             Description: Replies with Pong!.
 
 Setup the bot:
-    .env file:
-    
+    .env file:    
         ~ DISCORD_TOKEN=
-            Description: Discord bot token.
-            
+            Description: Discord bot token.            
     	~ CLIENT_ID=
-            Description: Discord bot id.
-            
+            Description: Discord bot id.            
         ~ GUILD_ID=
-            Description: The guild id for slash command usage.
-            
+            Description: The guild id for slash command usage.            
         ~ MONGOOSE_URI=
-            Description: Mongoose uri.
-            
+            Description: Mongoose uri.            
     Dependencies
         "@discordjs/rest": "^1.0.1"
         "discord.js": "^14.2.0"
