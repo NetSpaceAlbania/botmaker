@@ -56,3 +56,4 @@ Setup the bot:
         "discord.js": "^14.2.0"
         "dotenv": "^16.0.1"
         "fs": "^0.0.1-security"
+      `
