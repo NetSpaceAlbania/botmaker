@@ -9,7 +9,7 @@ This is the repository for the discord bots created by hsa community members.
 Entry level project, contributions from intermediate and advanced members would be appreciated!
 
 
-Someone fix this read me page x(
+Feel free to create a Template for this project.
 
 ```
 To be done:
