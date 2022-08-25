@@ -8,7 +8,10 @@ This is the repository for the discord bots created by hsa community members.
 - Skill level
 Entry level project, contributions from intermediate and advanced members would be appreciated!
 
-`
+
+Someone fix this read me page x(
+
+```
 To be done:
     - Audio log
         Description: To show interaction create informantion and more.
@@ -56,4 +59,4 @@ Setup the bot:
         "discord.js": "^14.2.0"
         "dotenv": "^16.0.1"
         "fs": "^0.0.1-security"
-      `
+ ```
