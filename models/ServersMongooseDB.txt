@@ -1,0 +1,22 @@
+const mongoose = require('mongoose');
+
+const Schema = new mongoose.Schema({
+    id: { type: String, required: true },
+    name: { type: String, required: true },
+    icon: { type: String, required: true },
+    language: { type: String, required: true },
+    category: { type: String, required: true },
+    description: { type: String, required: true },
+    tags: { type: Array, required: false }, 
+    createdAt: {type: Date, default: Date.now },
+    botIn: {type: Boolean, required: false, default: false ,},
+    members: { type: Number, required: false,default: null },
+    online: { type: Number, required: false,default: null },
+    emotes: { type: Number, required: false,default: null }, 
+    bumped: { type: Date, required: false,default: null },
+    ownerid: { type: Number, required: false, default: null},
+    
+
+});
+
+const serverss = module.exports = mongoose.model('Servers', Schema);
